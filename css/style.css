@@ -12,6 +12,8 @@ body{
     height: 100vh;
     overflow: hidden;    
     font-family: 'Baloo Chettan 2', cursive;
+    display: flex;
+    flex-direction: column;
 }
 
 #title{
@@ -33,25 +35,27 @@ body{
 .top-box-results{
     margin: 2% auto;
 }
+
 #box-form{
-    /* border: solid 1px white; */
+    /* background-color: white; */
     width: 100%;
-    max-width: 580px;
+    max-width: 560px;
+    display: flex;
+    flex-direction: row;
 }
 #box-form input{
+    width: 75%;
     font-family: 'Baloo Chettan 2', cursive;
-    font-size: 26px;
-    width: 80%;
-    padding: 7px;
+    font-size: 23px;
+    padding: 5px;
 }
 #box-form button{
-    font-family: 'Baloo Chettan 2', cursive;    
-    width: 15%;
-    font-size: 23px;
-    padding: 11px;
+    width: 20%;
+    font-family: 'Baloo Chettan 2', cursive;
     cursor: pointer;
-    background-color: #339b4d;
-    border: none;
-    color: white;
-    outline: none;
+    font-size: 18px;
+    background-color: #95bd6d;
+    border-color: #95bd6d;
+    margin-left: 1%;
+    /* border: none */
 }
