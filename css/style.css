@@ -9,8 +9,8 @@
 body{
     
     background-image: linear-gradient(to bottom right,#1c1868 60%,#35309c,#433bd8 );
-    height: 100vh;
-    overflow: hidden;    
+    height: 150vh;
+    /* overflow: hidden;     */
     font-family: 'Baloo Chettan 2', cursive;
     display: flex;
     flex-direction: column;
@@ -58,4 +58,47 @@ body{
     border-color: #95bd6d;
     margin-left: 1%;
     /* border: none */
+}
+
+#results{
+    /* border: solid 1px red; */
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+.box-city{
+    background-color: white;
+    border: solid 1px white;
+    padding: 18px;
+    font-size: 20px;
+    border-radius: 5px;
+    width: 23%;
+    margin-right: 2%;   
+}
+
+.temp_info,.city{
+    font-size: 33px;
+}
+.temp_info{
+    font-weight: bold;
+    font-style: italic;
+    margin-left: 35%;
+}
+.city{
+    font-style: italic;
+   
+}
+
+.img_result{
+    width: 60%;
+    margin: 10% auto;
+    display: block;
+}
+
+.humidity{
+    font-size: 16px;
+    text-align: center;
+    margin: 3% auto;
+    display: block;
 }

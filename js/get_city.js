@@ -25,5 +25,9 @@ function search(){
     request.send()
     
     let response = JSON.parse(request.responseText)
-    console.log("AAAAAAA", response)
+    console.log(response)
+    
+    const temp = response.main.temp
+    const humidity = response.main.humidity
+    const conditional = response.weather[0].main
 }
