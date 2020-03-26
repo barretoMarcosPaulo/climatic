@@ -78,12 +78,11 @@ body{
 }
 
 .temp_info,.city{
-    font-size: 33px;
+    font-size: 22px;
 }
 .temp_info{
     font-weight: bold;
     font-style: italic;
-    margin-left: 35%;
 }
 .city{
     font-style: italic;
