@@ -5,7 +5,7 @@ One or many cities can be consulted.
 The aim of the project was to put into practice basic skills in css, html and javascript.
 
 ## How to use the Project 
-1. First, go to the website <a href="https://openweathermap.org/">openWeatherMap</a>.
+1. First, go to the website <a target="_blank" href="https://openweathermap.org/">openWeatherMap</a>.
 The openWeatherMap is a API for get climactics conditionals, it has a lot of features.
 <img src="img/screenshots/api.png">
 
@@ -16,7 +16,7 @@ The openWeatherMap is a API for get climactics conditionals, it has a lot of fea
 
 That done, you can make querys and be happy :)
 
-If you want to find other information the website <a href="https://openweathermap.org/">openWeatherMap</a> have a doc 
+If you want to find other information the website <a target="_blank" href="https://openweathermap.org/">openWeatherMap</a> have a doc 
 detailed with all api routes.
 
 ## Images Screens
