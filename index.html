@@ -6,6 +6,7 @@
         <meta charset="utf-8">
         <link  rel="icon" href="img/icons/rain.png">
         <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script src="js/script.js"></script>
     </head>
 
     <body>
@@ -16,8 +17,13 @@
 
         <div id="box-form" class="initial-top-box">
 
-            <input type="text" required autofocus placeholder="Buscar minha cidade">
-            <button type="button" onclick="search()">Buscar</button>
+            <input 
+                type="text" 
+                autofocus 
+                placeholder="Buscar minha cidade"
+                onclick="search_city()"
+            >
+            <button type="button"  onclick="search()">Buscar</button>
         
         </div>
         
