@@ -11,7 +11,7 @@ The openWeatherMap is a API for get climactics conditionals, it has a lot of fea
 
 2. Create your account on the platform, and then generate an api key for your project
 
-3. Set your api key in  file <strong>get_city.json</strong> 
+3. Set your api key in  file <strong>get_city.js</strong> 
 <img src="img/screenshots/key.png">
 
 That done, you can make querys and be happy :)
