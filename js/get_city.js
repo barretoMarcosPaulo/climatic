@@ -17,7 +17,7 @@ const path_winter = "img/icons/Winter.png"
 function search(){
 
     URL = "https://api.openweathermap.org/data/2.5/weather?"
-    api_key = localStorage.getItem('api_key')
+    api_key = "Yor Api Key"
 
     let city = document.getElementById('input_city').value
     let original_city = city 
